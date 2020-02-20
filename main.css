@@ -1,0 +1,118 @@
+html {
+    margin: auto;
+    width: 100%;
+    background-color: #505;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 1.5em;
+}
+
+body {
+    margin: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #080;
+    
+}
+
+h1 {
+    position: relative;
+    left: 250px;
+    width: 150px;
+    padding: 20px;
+}
+
+section {
+    position: relative;
+    top: 165px;
+}
+
+footer {
+    position: relative;
+    top: 500px;
+}
+
+nav {
+    position: relative;
+    left: 150px;
+    width: 250px;
+}
+
+nav li {
+    padding: 10px;
+}
+
+td {
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px 15px 15px 5px;
+}
+
+.left-15 {
+    position: relative;
+    left: 15px;
+}
+
+.padding-bottom-150 {
+    padding-bottom: 500px;
+}
+
+a:link {
+    color: #00E;
+}
+
+a:visited {
+    color: #505F;
+}
+
+a:hover {
+    color: #0F0;
+}
+
+A:active {
+    color: #fab;
+}
+
+img {
+    border-radius: 2%;
+    border: 2px solid #080;
+}
+
+#container {
+    width: auto;
+    height: 100%;
+    border: 2px solid green;
+}
+
+#image-caption {
+    word-wrap: normal;
+    width: 395px;
+    padding-bottom: 10px;
+}
+
+.add-space {
+    /* padding-bottom: 1000px; */
+    height: 100%;
+    padding-bottom: 500px;
+}
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.scale-600px {
+    width: 600px;
+    height: auto;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
