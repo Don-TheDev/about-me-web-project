@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 12px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     background-color: #000;
     color: #080;
@@ -32,7 +32,7 @@ footer {
     top: 500px;
 }
 
-nav {
+/* nav {
     position: relative;
     left: 150px;
     width: 250px;
@@ -40,11 +40,23 @@ nav {
 
 nav li {
     padding: 10px;
+} */
+
+table {
+    border: 2px solid #080;
+    border-radius: 5px;
+}
+
+th {
+    border-bottom: 2px solid #080;
+    border-left: 1px solid #080;
+    border-right: 1px solid #080;
 }
 
 td {
-    border: 2px solid green;
-    border-radius: 5px;
+
+    border-left: 1px solid #080;
+    border-right: 1px solid #080;
     padding: 5px 15px 15px 5px;
 }
 
@@ -58,11 +70,11 @@ td {
 }
 
 a:link {
-    color: #00E;
+    color: #080;
 }
 
 a:visited {
-    color: #505F;
+    color: #69F;
 }
 
 a:hover {
@@ -70,7 +82,7 @@ a:hover {
 }
 
 A:active {
-    color: #fab;
+    color: #000;
 }
 
 img {
@@ -82,6 +94,7 @@ img {
     width: auto;
     height: 100%;
     border: 2px solid green;
+    padding-bottom: 500px;
 }
 
 #image-caption {
@@ -90,16 +103,52 @@ img {
     padding-bottom: 10px;
 }
 
-.add-space {
-    /* padding-bottom: 1000px; */
-    height: 100%;
-    padding-bottom: 500px;
-}
-
-.top-right {
+#topic-image {
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 10px;
+}
+
+#favorite-links-menu {
+    /* padding: 2px; */
+    position: relative;
+    width: 500px;
+    left: 135px;
+    bottom: 80px;
+}
+
+#favorite-links li {
+    display: inline-block;
+    width: 195px;
+    height: 35px;
+    padding: 5px;
+    border: 2px solid #080;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #505;
+    margin: 5px;
+
+}
+
+#main-links {
+    position: relative;
+    width: 500px;
+    left: 135px;
+    bottom: 20px;
+}
+
+#main-links li {
+    display: inline-block;
+    width: 195px;
+    height: 35px;
+    padding: 5px;
+    border: 2px solid #080;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #505;
+    margin: 5px;
+
+
 }
 
 .scale-600px {
